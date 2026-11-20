@@ -1,0 +1,1109 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>秘密帝王研究所 - 影像,探索未知的影像研究所官网</title>
+<meta name="description" content="秘密帝王研究所官方网站，深耕神秘文化与历史谜题的原创影像内容平台，为企业与创作者提供高清正版视频内容生态。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23182436'/%3E%3Ccircle cx='32' cy='30' r='12' fill='none' stroke='%23e0b84c' stroke-width='3'/%3E%3Cpath d='M32 18v24M20 30h24' stroke='%23e0b84c' stroke-width='2'/%3E%3Cpath d='M26 44h12v6H26z' fill='%23e0b84c'/%3E%3C/svg%3E">
+<style>
+:root{
+  --sk-parchment:#f4efe4;
+  --sk-paper:#fbf8f1;
+  --sk-ink:#182436;
+  --sk-ink-soft:#3c4a5e;
+  --sk-gold:#c19a3f;
+  --sk-gold-bright:#e0b84c;
+  --sk-rust:#8c3b2e;
+  --sk-line:#d8cfba;
+  --sk-shadow:0 10px 30px rgba(24,36,54,.12);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:118px}
+body{
+  font-family:"Songti SC","Noto Serif SC","Source Han Serif SC",Georgia,"Microsoft YaHei",serif;
+  background:var(--sk-parchment);
+  color:var(--sk-ink);
+  line-height:1.8;
+  -webkit-font-smoothing:antialiased;
+}
+.sk-container{max-width:1180px;margin:0 auto;padding:0 24px}
+.sk-sticky{position:sticky;top:0;z-index:90}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+.sk-btn{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:11px 22px;border-radius:2px;border:1px solid var(--sk-gold);
+  background:var(--sk-gold);color:#182436;font-size:15px;font-weight:700;
+  cursor:pointer;transition:.25s;font-family:inherit;letter-spacing:.06em;
+}
+.sk-btn:hover{background:var(--sk-gold-bright);border-color:var(--sk-gold-bright);transform:translateY(-2px)}
+.sk-btn-ghost{background:transparent;color:var(--sk-ink);border:1px solid var(--sk-ink-soft)}
+.sk-btn-ghost:hover{background:var(--sk-ink);color:var(--sk-parchment);border-color:var(--sk-ink);transform:translateY(-2px)}
+.sk-btn-dark{background:var(--sk-ink);border-color:var(--sk-ink);color:var(--sk-parchment)}
+.sk-btn-dark:hover{background:#24344c;border-color:#24344c}
+
+/* ===== 公告条 ===== */
+.sk-announce{
+  background:linear-gradient(90deg,#182436,#2b3d57 60%,#182436);
+  color:#f4efe4;font-size:13.5px;letter-spacing:.04em;
+  border-bottom:1px solid rgba(224,184,76,.35);
+}
+.sk-announce .sk-container{display:flex;align-items:center;gap:14px;min-height:42px;flex-wrap:wrap;padding-top:6px;padding-bottom:6px}
+.sk-announce-tag{
+  flex:0 0 auto;background:var(--sk-rust);color:#fbf8f1;font-size:11.5px;
+  padding:2px 9px;border-radius:2px;letter-spacing:.12em;
+}
+.sk-announce-text{flex:1 1 auto;min-width:200px;color:#e8e2d3}
+.sk-announce-text b{color:var(--sk-gold-bright);font-weight:700}
+.sk-announce-link{color:var(--sk-gold-bright);border-bottom:1px dashed rgba(224,184,76,.5);white-space:nowrap;font-size:13px}
+.sk-announce-link:hover{border-bottom-style:solid}
+
+/* ===== 页头 ===== */
+.sk-header{background:rgba(251,248,241,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--sk-line)}
+.sk-header .sk-container{display:flex;align-items:center;gap:26px;min-height:76px}
+.sk-brand{display:flex;align-items:center;gap:12px;flex:0 0 auto}
+.sk-brand-mark{
+  width:44px;height:44px;border-radius:50%;border:2px solid var(--sk-gold);
+  display:grid;place-items:center;color:var(--sk-gold);font-size:20px;font-weight:700;
+  background:radial-gradient(circle at 35% 30%,#fff,#e9e0cc 70%);
+}
+.sk-brand-name{font-size:18px;font-weight:700;letter-spacing:.1em;line-height:1.2}
+.sk-brand-sub{font-size:11px;color:var(--sk-ink-soft);letter-spacing:.28em}
+.sk-nav{display:flex;gap:4px;flex:1 1 auto;flex-wrap:wrap}
+.sk-nav a{
+  padding:8px 13px;font-size:15px;color:var(--sk-ink-soft);border-radius:2px;transition:.2s;letter-spacing:.04em;
+}
+.sk-nav a:hover{color:var(--sk-ink);background:rgba(193,154,63,.14)}
+.sk-header-tools{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.sk-search{position:relative;display:flex;align-items:center}
+.sk-search input{
+  width:172px;padding:8px 30px 8px 12px;border:1px solid var(--sk-line);border-radius:2px;
+  background:#fff;font-size:13.5px;font-family:inherit;color:var(--sk-ink);transition:.25s;outline:none;
+}
+.sk-search input:focus{width:214px;border-color:var(--sk-gold)}
+.sk-search-btn{
+  position:absolute;right:4px;top:50%;transform:translateY(-50%);
+  background:none;border:none;cursor:pointer;color:var(--sk-ink-soft);font-size:15px;padding:4px;
+}
+.sk-search-btn:hover{color:var(--sk-gold)}
+.sk-nav-toggle{display:none;background:none;border:1px solid var(--sk-line);border-radius:2px;padding:7px 11px;font-size:18px;cursor:pointer;color:var(--sk-ink)}
+
+/* ===== 首屏 ===== */
+.sk-hero{position:relative;background:var(--sk-paper);overflow:hidden;border-bottom:1px solid var(--sk-line)}
+.sk-hero .sk-container{display:grid;grid-template-columns:6fr 4fr;gap:44px;padding-top:58px;padding-bottom:58px;align-items:center}
+.sk-hero-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;font-size:12px;letter-spacing:.28em;
+  color:var(--sk-rust);text-transform:uppercase;margin-bottom:16px;
+}
+.sk-hero-eyebrow::before{content:"";width:34px;height:1px;background:var(--sk-rust)}
+.sk-hero h1{font-size:clamp(34px,4.6vw,54px);line-height:1.22;letter-spacing:.04em;margin-bottom:18px;font-weight:700}
+.sk-hero h1 em{font-style:normal;color:var(--sk-gold)}
+.sk-hero-lead{font-size:16px;color:var(--sk-ink-soft);margin-bottom:12px;max-width:620px}
+.sk-hero-desc{font-size:14.5px;color:#5a6577;margin-bottom:26px;max-width:640px;text-align:justify}
+.sk-hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:32px}
+.sk-hero-stats{display:flex;gap:34px;flex-wrap:wrap;border-top:1px solid var(--sk-line);padding-top:22px}
+.sk-hero-stat b{display:block;font-size:26px;color:var(--sk-ink);letter-spacing:.02em;font-family:"Helvetica Neue",Arial,sans-serif}
+.sk-hero-stat span{font-size:12.5px;color:var(--sk-ink-soft);letter-spacing:.1em}
+.sk-hero-visual{position:relative}
+.sk-hero-frame{
+  position:relative;border:1px solid var(--sk-line);background:#fff;padding:10px;
+  box-shadow:var(--sk-shadow);transform:rotate(-1.2deg);
+}
+.sk-hero-frame img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover}
+.sk-hero-badge{
+  position:absolute;left:-16px;bottom:28px;background:var(--sk-ink);color:var(--sk-parchment);
+  padding:12px 16px;font-size:12.5px;letter-spacing:.14em;border-left:3px solid var(--sk-gold);
+}
+.sk-hero-badge b{display:block;color:var(--sk-gold-bright);font-size:15px;letter-spacing:.06em;margin-bottom:2px}
+
+/* ===== 通用section ===== */
+.sk-section{padding:66px 0}
+.sk-section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:34px;flex-wrap:wrap}
+.sk-section-head h2{font-size:clamp(24px,3vw,32px);letter-spacing:.06em;line-height:1.3}
+.sk-section-head h2 small{display:block;font-size:12px;letter-spacing:.3em;color:var(--sk-gold);font-weight:400;margin-bottom:6px}
+.sk-section-head p{font-size:14px;color:var(--sk-ink-soft);max-width:520px}
+
+/* ===== 深度解析 ===== */
+.sk-about{background:var(--sk-paper);border-top:1px solid var(--sk-line);border-bottom:1px solid var(--sk-line)}
+.sk-about-grid{display:grid;grid-template-columns:7fr 5fr;gap:44px;align-items:start}
+.sk-about-text p{font-size:15px;color:#41505f;margin-bottom:16px;text-align:justify}
+.sk-about-text p:first-letter{font-size:2.1em;line-height:1;color:var(--sk-rust);float:left;margin:6px 8px 0 0}
+.sk-about-aside{background:#fff;border:1px solid var(--sk-line);padding:26px 24px;box-shadow:var(--sk-shadow)}
+.sk-about-aside h3{font-size:16px;letter-spacing:.16em;margin-bottom:16px;padding-bottom:10px;border-bottom:1px solid var(--sk-line);color:var(--sk-ink)}
+.sk-about-list{list-style:none}
+.sk-about-list li{display:flex;gap:12px;padding:11px 0;border-bottom:1px dashed var(--sk-line);font-size:14px;color:var(--sk-ink-soft)}
+.sk-about-list li:last-child{border-bottom:none}
+.sk-about-list b{flex:0 0 auto;color:var(--sk-gold);font-family:"Helvetica Neue",Arial,sans-serif;font-size:13px;padding-top:2px}
+
+/* ===== 焦点视频 ===== */
+.sk-feature-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-bottom:22px}
+.sk-feature-card{position:relative;border:1px solid var(--sk-line);background:#fff;overflow:hidden;transition:.3s;cursor:pointer}
+.sk-feature-card:hover{transform:translateY(-4px);box-shadow:var(--sk-shadow)}
+.sk-feature-card .sk-cover{position:relative;aspect-ratio:16/9;overflow:hidden}
+.sk-feature-card .sk-cover img{width:100%;height:100%;object-fit:cover;transition:.5s}
+.sk-feature-card:hover .sk-cover img{transform:scale(1.04)}
+.sk-cover-mask{position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(24,36,54,.78))}
+.sk-play{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  width:52px;height:52px;border-radius:50%;background:rgba(251,248,241,.92);
+  display:grid;place-items:center;border:1px solid var(--sk-gold);
+}
+.sk-play::after{content:"";display:block;margin-left:4px;border-left:14px solid var(--sk-ink);border-top:9px solid transparent;border-bottom:9px solid transparent}
+.sk-cover-tag{position:absolute;left:14px;top:14px;background:rgba(24,36,54,.86);color:var(--sk-gold-bright);font-size:11.5px;padding:3px 9px;letter-spacing:.12em}
+.sk-cover-title{position:absolute;left:16px;right:16px;bottom:14px;color:#fbf8f1;font-size:17px;line-height:1.45;letter-spacing:.02em}
+.sk-feature-body{padding:16px 18px 18px}
+.sk-feature-body p{font-size:13.5px;color:var(--sk-ink-soft);margin-bottom:12px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.sk-card-meta{display:flex;align-items:center;gap:10px;font-size:12.5px;color:#6b7688;flex-wrap:wrap}
+.sk-avatar{width:26px;height:26px;border-radius:50%;display:grid;place-items:center;font-size:12px;color:#fff;font-weight:700;flex:0 0 auto}
+.sk-mini-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.sk-mini-card{border:1px solid var(--sk-line);background:#fff;overflow:hidden;transition:.3s;cursor:pointer}
+.sk-mini-card:hover{transform:translateY(-3px);box-shadow:var(--sk-shadow)}
+.sk-mini-card .sk-cover{aspect-ratio:16/9}
+.sk-mini-card .sk-cover img{width:100%;height:100%;object-fit:cover}
+.sk-mini-card .sk-mini-body{padding:11px 12px 13px}
+.sk-mini-card h4{font-size:14px;line-height:1.5;margin-bottom:7px;font-weight:600}
+.sk-mini-card .sk-card-meta{font-size:11.5px}
+
+/* ===== 专题 ===== */
+.sk-topics{background:var(--sk-ink);color:var(--sk-parchment);border-radius:0}
+.sk-topics .sk-section-head h2{color:var(--sk-parchment)}
+.sk-topics .sk-section-head p{color:#a9b3c2}
+.sk-topics .sk-section-head h2 small{color:var(--sk-gold-bright)}
+.sk-topic-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.sk-topic-card{border:1px solid rgba(224,184,76,.28);background:rgba(251,248,241,.04);transition:.3s;cursor:pointer}
+.sk-topic-card:hover{background:rgba(224,184,76,.1);border-color:var(--sk-gold)}
+.sk-topic-card .sk-cover{aspect-ratio:16/9;position:relative;overflow:hidden}
+.sk-topic-card .sk-cover img{width:100%;height:100%;object-fit:cover}
+.sk-topic-card .sk-topic-body{padding:18px 18px 20px}
+.sk-topic-status{display:inline-block;font-size:11px;letter-spacing:.12em;padding:2px 8px;border:1px solid var(--sk-gold-bright);color:var(--sk-gold-bright);margin-bottom:10px}
+.sk-topic-card h3{font-size:17px;letter-spacing:.04em;margin-bottom:8px;color:#fbf8f1}
+.sk-topic-card p{font-size:13px;color:#a9b3c2;line-height:1.7}
+
+/* ===== 创作者 ===== */
+.sk-creator-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.sk-creator-card{border:1px solid var(--sk-line);background:#fff;padding:22px;display:flex;gap:16px;transition:.3s;position:relative}
+.sk-creator-card:hover{box-shadow:var(--sk-shadow);transform:translateY(-3px)}
+.sk-creator-avatar{width:56px;height:56px;border-radius:50%;flex:0 0 auto;display:grid;place-items:center;font-size:22px;color:#fff;font-weight:700;border:2px solid #fff;box-shadow:0 3px 10px rgba(24,36,54,.16)}
+.sk-creator-info h3{font-size:16px;letter-spacing:.04em;margin-bottom:4px}
+.sk-creator-field{font-size:12px;color:var(--sk-rust);letter-spacing:.1em;margin-bottom:8px}
+.sk-creator-info p{font-size:13px;color:var(--sk-ink-soft);line-height:1.65;margin-bottom:8px}
+.sk-creator-stats{display:flex;gap:14px;font-size:12px;color:#6b7688}
+.sk-creator-stats b{color:var(--sk-ink);font-family:"Helvetica Neue",Arial,sans-serif}
+.sk-creator-more{background:none;border:none;color:var(--sk-gold);font-size:12.5px;cursor:pointer;font-family:inherit;padding:0;margin-top:4px;border-bottom:1px dashed var(--sk-gold)}
+
+/* ===== 作品墙 ===== */
+.sk-wall{background:var(--sk-paper);border-top:1px solid var(--sk-line);border-bottom:1px solid var(--sk-line)}
+.sk-wall-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;grid-auto-rows:110px}
+.sk-wall-item{position:relative;overflow:hidden;border:1px solid var(--sk-line);cursor:pointer}
+.sk-wall-item img{width:100%;height:100%;object-fit:cover;transition:.4s}
+.sk-wall-item:hover img{transform:scale(1.05)}
+.sk-wall-item span{position:absolute;inset:auto 0 0 0;background:linear-gradient(transparent,rgba(24,36,54,.8));color:#fbf8f1;font-size:12px;padding:18px 10px 8px;letter-spacing:.04em}
+.sk-wall-item.w2{grid-column:span 2}
+.sk-wall-item.h2{grid-row:span 2}
+
+/* ===== 动态 / 更新 ===== */
+.sk-updates-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.sk-update{background:#fff;border-left:3px solid var(--sk-gold);padding:18px 20px;transition:.3s;border-top:1px solid var(--sk-line);border-right:1px solid var(--sk-line);border-bottom:1px solid var(--sk-line)}
+.sk-update:hover{transform:translateX(4px)}
+.sk-update time{font-size:12px;color:var(--sk-rust);letter-spacing:.1em;font-family:"Helvetica Neue",Arial,sans-serif}
+.sk-update h3{font-size:15.5px;margin:6px 0 6px;letter-spacing:.02em}
+.sk-update p{font-size:13px;color:var(--sk-ink-soft);line-height:1.7}
+
+/* ===== 评价 ===== */
+.sk-quotes-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.sk-quote{background:#fff;border:1px solid var(--sk-line);padding:22px;position:relative;transition:.3s}
+.sk-quote:hover{box-shadow:var(--sk-shadow);transform:translateY(-3px)}
+.sk-quote::before{content:"“";position:absolute;right:18px;top:2px;font-size:44px;color:rgba(193,154,63,.3);line-height:1}
+.sk-quote p{font-size:13.5px;color:#41505f;line-height:1.8;margin-bottom:14px;position:relative;z-index:1}
+.sk-quote-who{display:flex;align-items:center;gap:10px;font-size:12.5px;color:#6b7688}
+.sk-quote-who b{color:var(--sk-ink)}
+
+/* ===== FAQ ===== */
+.sk-faq{background:var(--sk-paper);border-top:1px solid var(--sk-line);border-bottom:1px solid var(--sk-line)}
+.sk-faq-list{max-width:840px}
+.sk-faq-item{border-bottom:1px solid var(--sk-line)}
+.sk-faq-item summary{
+  list-style:none;cursor:pointer;padding:18px 34px 18px 0;font-size:15.5px;position:relative;letter-spacing:.02em;transition:.2s;
+}
+.sk-faq-item summary::-webkit-details-marker{display:none}
+.sk-faq-item summary::after{content:"+";position:absolute;right:4px;top:50%;transform:translateY(-50%);font-size:20px;color:var(--sk-gold);transition:.25s;font-family:Arial,sans-serif}
+.sk-faq-item[open] summary::after{transform:translateY(-50%) rotate(45deg)}
+.sk-faq-item summary:hover{color:var(--sk-rust)}
+.sk-faq-item p{font-size:14px;color:var(--sk-ink-soft);padding:0 34px 20px 0;line-height:1.8;text-align:justify}
+
+/* ===== 联系 / 投稿 ===== */
+.sk-contact{background:var(--sk-ink);color:var(--sk-parchment)}
+.sk-contact .sk-section-head h2{color:var(--sk-parchment)}
+.sk-contact .sk-section-head p{color:#a9b3c2}
+.sk-contact .sk-section-head h2 small{color:var(--sk-gold-bright)}
+.sk-contact-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.sk-contact-card{border:1px solid rgba(224,184,76,.3);padding:26px;background:rgba(251,248,241,.04)}
+.sk-contact-card h3{font-size:17px;letter-spacing:.1em;margin-bottom:12px;color:var(--sk-gold-bright)}
+.sk-contact-card p{font-size:13.5px;color:#b6c0cd;line-height:1.8;margin-bottom:16px}
+.sk-contact-row{display:flex;justify-content:space-between;gap:12px;font-size:13px;padding:8px 0;border-bottom:1px dashed rgba(200,210,225,.18);color:#c4ccd7}
+.sk-contact-row span:last-child{color:#fbf8f1}
+.sk-contact-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+
+/* ===== 页脚 ===== */
+.sk-footer{background:#101a29;color:#8f9aa9;font-size:13px;padding:48px 0 26px}
+.sk-footer-top{display:grid;grid-template-columns:2fr 1fr 1fr 1.4fr;gap:30px;margin-bottom:34px}
+.sk-footer h4{color:#e8e2d3;font-size:14px;letter-spacing:.16em;margin-bottom:14px}
+.sk-footer a{display:block;padding:5px 0;color:#8f9aa9;transition:.2s}
+.sk-footer a:hover{color:var(--sk-gold-bright)}
+.sk-footer-brandline{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.sk-footer-brandline .sk-brand-mark{width:38px;height:38px;font-size:17px}
+.sk-footer-brandline b{color:#e8e2d3;font-size:16px;letter-spacing:.1em}
+.sk-footer p{font-size:12.5px;line-height:1.9;color:#77828f}
+.sk-footer-bottom{border-top:1px solid rgba(200,210,225,.14);padding-top:20px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:12px;color:#6c7785}
+
+/* ===== 返回顶部 & Toast ===== */
+.sk-top-btn{
+  position:fixed;right:24px;bottom:28px;width:46px;height:46px;border-radius:50%;
+  background:var(--sk-ink);color:var(--sk-gold-bright);border:1px solid var(--sk-gold);
+  display:grid;place-items:center;font-size:18px;cursor:pointer;opacity:0;pointer-events:none;transition:.3s;z-index:80;
+}
+.sk-top-btn.show{opacity:1;pointer-events:auto}
+.sk-top-btn:hover{background:var(--sk-gold);color:var(--sk-ink)}
+.sk-toast{
+  position:fixed;left:50%;bottom:40px;transform:translate(-50%,20px);
+  background:var(--sk-ink);color:var(--sk-parchment);padding:11px 24px;font-size:13.5px;letter-spacing:.06em;
+  border:1px solid var(--sk-gold);opacity:0;pointer-events:none;transition:.3s;z-index:120;border-radius:2px;
+}
+.sk-toast.show{opacity:1;transform:translate(-50%,0)}
+
+/* ===== 弹窗 ===== */
+.sk-modal-mask{position:fixed;inset:0;background:rgba(16,26,41,.6);display:none;align-items:center;justify-content:center;padding:24px;z-index:130;backdrop-filter:blur(3px)}
+.sk-modal-mask.open{display:flex}
+.sk-modal{background:var(--sk-paper);border:1px solid var(--sk-gold);max-width:520px;width:100%;padding:30px 28px;position:relative;box-shadow:0 24px 60px rgba(0,0,0,.4);max-height:86vh;overflow:auto}
+.sk-modal h3{font-size:19px;letter-spacing:.08em;margin-bottom:8px}
+.sk-modal .sk-modal-sub{font-size:13px;color:var(--sk-ink-soft);margin-bottom:20px}
+.sk-modal-close{position:absolute;right:14px;top:12px;background:none;border:none;font-size:22px;cursor:pointer;color:var(--sk-ink-soft);line-height:1}
+.sk-modal-close:hover{color:var(--sk-rust)}
+.sk-field{margin-bottom:14px}
+.sk-field label{display:block;font-size:13px;margin-bottom:6px;letter-spacing:.06em;color:var(--sk-ink-soft)}
+.sk-field input,.sk-field textarea,.sk-field select{
+  width:100%;padding:10px 12px;border:1px solid var(--sk-line);background:#fff;font-family:inherit;font-size:14px;color:var(--sk-ink);border-radius:2px;outline:none;
+}
+.sk-field input:focus,.sk-field textarea:focus,.sk-field select:focus{border-color:var(--sk-gold)}
+.sk-field textarea{min-height:88px;resize:vertical}
+.sk-share-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-bottom:16px}
+.sk-share-item{border:1px solid var(--sk-line);background:#fff;padding:12px;font-size:14px;cursor:pointer;font-family:inherit;color:var(--sk-ink);transition:.2s;text-align:center}
+.sk-share-item:hover{border-color:var(--sk-gold);background:rgba(193,154,63,.1)}
+
+@media(max-width:960px){
+  .sk-hero .sk-container{grid-template-columns:1fr;gap:34px}
+  .sk-hero-visual{max-width:420px}
+  .sk-about-grid{grid-template-columns:1fr}
+  .sk-feature-grid{grid-template-columns:1fr}
+  .sk-mini-grid{grid-template-columns:repeat(2,1fr)}
+  .sk-topic-grid{grid-template-columns:1fr}
+  .sk-creator-grid{grid-template-columns:1fr}
+  .sk-quotes-grid{grid-template-columns:1fr}
+  .sk-updates-grid{grid-template-columns:1fr}
+  .sk-contact-grid{grid-template-columns:1fr}
+  .sk-footer-top{grid-template-columns:1fr 1fr}
+  .sk-wall-grid{grid-template-columns:repeat(3,1fr)}
+}
+@media(max-width:760px){
+  .sk-nav{display:none;position:absolute;left:0;right:0;top:100%;background:var(--sk-paper);border-bottom:1px solid var(--sk-line);flex-direction:column;padding:10px 24px 16px;gap:2px;box-shadow:var(--sk-shadow)}
+  .sk-nav.open{display:flex}
+  .sk-header .sk-container{position:relative;min-height:66px;gap:14px}
+  .sk-header-tools .sk-search{display:none}
+  .sk-nav-toggle{display:block}
+  .sk-section{padding:46px 0}
+  .sk-wall-grid{grid-template-columns:repeat(2,1fr);grid-auto-rows:100px}
+  .sk-footer-top{grid-template-columns:1fr}
+  .sk-hero-stats{gap:22px}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="sk-sticky">
+  <div class="sk-announce">
+    <div class="sk-container">
+      <span class="sk-announce-tag">官方发布</span>
+      <span class="sk-announce-text"><b>帝王档案·第七季</b> 新增《靖难之夜》上下集，同步上线档案手记与导演音轨；<b>创作者扶持计划</b> 第二期报名通道今日开启。</span>
+      <a class="sk-announce-link" href="#sk-updates">查看更新 →</a>
+    </div>
+  </div>
+  <header class="sk-header">
+    <div class="sk-container">
+      <a class="sk-brand" href="#sk-top" aria-label="秘密帝王研究所官网首页">
+        <span class="sk-brand-mark">帝</span>
+        <span>
+          <span class="sk-brand-name">秘密帝王研究所</span>
+          <span class="sk-brand-sub">EMPEROR ARCHIVE</span>
+        </span>
+      </a>
+      <nav class="sk-nav" id="skNav">
+        <a href="#sk-top">首页</a>
+        <a href="#sk-focus">焦点影像</a>
+        <a href="#sk-topics">专题企划</a>
+        <a href="#sk-creators">创作者</a>
+        <a href="#sk-wall">影像墙</a>
+        <a href="#sk-updates">企业动态</a>
+        <a href="#sk-faq">帮助</a>
+        <a href="#sk-contact">联系</a>
+      </nav>
+      <div class="sk-header-tools">
+        <div class="sk-search">
+          <input type="text" id="skSearchInput" placeholder="搜索帝王档案 / 专题 / 创作者" aria-label="站内搜索">
+          <button class="sk-search-btn" id="skSearchBtn" aria-label="搜索">⌕</button>
+        </div>
+        <button class="sk-nav-toggle" id="skNavToggle" aria-label="展开导航" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+</div>
+
+<main id="sk-top">
+
+  <!-- 首屏 -->
+  <section class="sk-hero">
+    <div class="sk-container">
+      <div class="sk-hero-content">
+        <span class="sk-hero-eyebrow">官方网站 · 品牌门户</span>
+        <h1>秘密帝王研究所</h1>
+        <p class="sk-hero-lead">以影像逼近历史的暗面，让被遮蔽的帝王叙事重新被看见。</p>
+        <p class="sk-hero-desc">秘密帝王研究所官方网站是一家专注于帝王史、宫闱档案与权力谜题的原创影像机构。我们以严谨史料为地基，以电影化叙事为语言，持续产出高清、正版的深度纪录片与短视频档案，为企业、创作者与研究者搭建一个值得信赖的内容生态。</p>
+        <div class="sk-hero-actions">
+          <a class="sk-btn" href="#sk-focus">进入焦点影像</a>
+          <button class="sk-btn sk-btn-ghost" id="skShareHero">分享本站</button>
+        </div>
+        <div class="sk-hero-stats">
+          <div class="sk-hero-stat"><b>186</b><span>部原创档案</span></div>
+          <div class="sk-hero-stat"><b>3200万</b><span>累计影像时长（分钟）</span></div>
+          <div class="sk-hero-stat"><b>76万</b><span>社区同好成员</span></div>
+        </div>
+      </div>
+      <div class="sk-hero-visual">
+        <div class="sk-hero-frame">
+          <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 600'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23182436'/%3E%3Cstop offset='1' stop-color='%233c4a5e'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='600' fill='url(%23g1)'/%3E%3Ccircle cx='240' cy='210' r='110' fill='none' stroke='%23c19a3f' stroke-width='2' opacity='.8'/%3E%3Ccircle cx='240' cy='210' r='78' fill='none' stroke='%23e0b84c' stroke-width='1' stroke-dasharray='4 6'/%3E%3Cpath d='M240 130v160M160 210h160' stroke='%23e0b84c' stroke-width='1.4' opacity='.7'/%3E%3Cpath d='M190 420h100v14H190zM205 448h70v10h-70z' fill='%23c19a3f'/%3E%3Cpath d='M240 360l30 50h-60z' fill='%23e0b84c' opacity='.85'/%3E%3Ctext x='240' y='520' fill='%23e0b84c' font-family='serif' font-size='20' text-anchor='middle' letter-spacing='8'%3EARCHIVE%3C/text%3E%3Ctext x='240' y='552' fill='%238f9aa9' font-family='serif' font-size='13' text-anchor='middle' letter-spacing='3'%3E秘密帝王研究所%3C/text%3E%3C/svg%3E" width="480" height="600" alt="秘密帝王研究所主视觉档案徽记与帝王宝座意象" loading="eager">
+        </div>
+        <div class="sk-hero-badge"><b>正在更新</b>帝王档案 · 第七季</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 深度解析 -->
+  <section class="sk-section sk-about" id="sk-about">
+    <div class="sk-container">
+      <div class="sk-section-head">
+        <h2><small>BRAND INSIGHT</small>关于秘密帝王研究所的品牌定位与内容解析</h2>
+        <p>一个以帝王史为轴心、以影像为载体的垂直内容生态。</p>
+      </div>
+      <div class="sk-about-grid">
+        <div class="sk-about-text">
+          <p>秘密帝王研究所创立于一个朴素的疑问：当我们谈论帝王，我们谈的究竟是谁。是史书里被反复誊写的那几行功过，还是深宫中无人记录的深夜、密诏、疑案与人心？研究所从一开始就选择站在后者一侧。我们把摄像头对准正史的留白处，用档案、器物、地图、家谱与口述传统互相印证，试图让那些被权力叙事压低的声部重新发声。这一选择决定了我们不是一部简单的历史科普频道，而是一个有明确方法论、有长期选题规划、有学术顾问团队的影像品牌。</p>
+          <p>作为国内较早深耕帝王史影像化的团队，秘密帝王研究所官方网站持续运营六年，累计完成186部原创档案，涵盖王朝更替、宫闱秘闻、制度沿革、器物考据与帝王个人生命史等方向。我们的内容坚持高清制作标准，从脚本考据到实景拍摄，从三维复原到音效设计，每个环节都由固定团队打磨。我们相信，真正值得信赖的历史内容，不在于结论多么惊人，而在于每一个判断都能被追溯到材料，每一处影像都能被反复检视。</p>
+          <p>在内容生态上，研究所同时扮演两个角色：既是原创出品方，也是创作者社区的运营者。我们向独立影像作者开放档案素材库与考据支持，鼓励更多人以自己的视角重述帝王故事。社区里既有专业学者，也有刚入门的爱好者，他们围绕同一份档案展开讨论、补充、反驳，这种持续的、真实的互动，正是我们所说的品牌生命力。用户首选并非一日之功，而是由一部部作品、一次次回应慢慢累积起来的口碑。</p>
+          <p>秘密帝王研究所的企业使命，是让历史影像既保持学术的克制，也拥有叙事的温度。我们不做猎奇式的悬疑拼贴，也不把帝王简化为符号。每一位帝王背后都是一个具体的人，所处的时代有具体的困境。研究所的精品内容试图还原这种具体性：一道诏书背后的犹豫，一次迁都背后的财政压力，一场宫变背后被忽略的旁观者。这种对复杂性的尊重，构成了我们与同行的差别，也构成了我们与观众之间的长期约定。</p>
+          <p>面向未来，研究所将继续在垂直领域深挖，同时扩大内容形态：长纪录片、系列短档案、音轨解说、线下展陈与创作者共创计划将并行推进。我们希望这个平台不仅是一个观看的地方，更是一个提问的地方。当观众看完一集档案，愿意去追问下一条线索、打开下一本史料，研究所的工作才算真正完成。这既是我们的社会责任，也是我们持续运营的动力所在。</p>
+        </div>
+        <aside class="sk-about-aside">
+          <h3>研究所档案速览</h3>
+          <ul class="sk-about-list">
+            <li><b>01</b><span>创立六年，持续运营，186部原创影像档案</span></li>
+            <li><b>02</b><span>学术顾问 12 位，覆盖史学、考古、文献学</span></li>
+            <li><b>03</b><span>自有素材库 4.2 万条，向创作者开放授权</span></li>
+            <li><b>04</b><span>社区同好 76 万，月均互动 21 万次</span></li>
+            <li><b>05</b><span>帝王档案系列已更新至第七季，保持稳定周更</span></li>
+            <li><b>06</b><span>合作博物馆、出版社与高校共 23 家</span></li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- 焦点影像 -->
+  <section class="sk-section" id="sk-focus">
+    <div class="sk-container">
+      <div class="sk-section-head">
+        <h2><small>FOCUS ARCHIVE</small>焦点影像</h2>
+        <p>本周重点推荐：从靖难之夜到万历怠政，四条主线档案同步推进。</p>
+      </div>
+      <div class="sk-feature-grid">
+        <article class="sk-feature-card">
+          <div class="sk-cover">
+            <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='f1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23223046'/%3E%3Cstop offset='.6' stop-color='%234a3a2c'/%3E%3Cstop offset='1' stop-color='%238c3b2e'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23f1)'/%3E%3Cpath d='M0 280 L160 200 L300 250 L470 170 L640 240 L640 360 L0 360 Z' fill='%23182436' opacity='.75'/%3E%3Ccircle cx='500' cy='90' r='46' fill='%23e0b84c' opacity='.85'/%3E%3Cpath d='M180 120h120v150H180z' fill='%23101a29' opacity='.8'/%3E%3Cpath d='M200 140h80v14h-80zM200 168h80v8h-80zM200 188h56v8h-56z' fill='%23c19a3f' opacity='.7'/%3E%3Cpath d='M120 320l60-90 40 50 50-70 80 110z' fill='%23f4efe4' opacity='.12'/%3E%3C/svg%3E" alt="靖难之夜档案封面，暮色城楼与烛火密诏">
+            <span class="sk-cover-mask"></span>
+            <span class="sk-play"></span>
+            <span class="sk-cover-tag">帝王档案 · 第七季</span>
+            <h3 class="sk-cover-title">《靖难之夜》上集：一道诏书如何在四十八小时内改写帝国走向</h3>
+          </div>
+          <div class="sk-feature-body">
+            <p>洪武三十一年至建文四年，短短数年间，帝国权力几度易手。本集回到那个雨夜，从传令路线、城门开合与宫中人手变动，重推靖难之役的关键节点。</p>
+            <div class="sk-card-meta">
+              <span class="sk-avatar" style="background:#8c3b2e">沈</span>
+              <span>沈砚舟 · 首席考据</span>
+              <span>·</span>
+              <span>42 分钟</span>
+              <span>·</span>
+              <span>128.6 万播放</span>
+              <button class="sk-like" data-count="3127" style="margin-left:auto;background:none;border:1px solid #d8cfba;border-radius:2px;padding:4px 10px;font-size:12px;cursor:pointer;font-family:inherit;color:#3c4a5e">♡ 3127</button>
+            </div>
+          </div>
+        </article>
+        <article class="sk-feature-card">
+          <div class="sk-cover">
+            <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='f2' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23d9c9a3'/%3E%3Cstop offset='1' stop-color='%23a8865a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23f2)'/%3E%3Crect x='60' y='60' width='240' height='240' fill='%23fbf8f1' opacity='.55'/%3E%3Crect x='80' y='84' width='200' height='12' fill='%23182436' opacity='.5'/%3E%3Crect x='80' y='112' width='150' height='8' fill='%23182436' opacity='.36'/%3E%3Crect x='80' y='132' width='180' height='8' fill='%23182436' opacity='.36'/%3E%3Crect x='80' y='152' width='120' height='8' fill='%23182436' opacity='.3'/%3E%3Ccircle cx='440' cy='180' r='86' fill='none' stroke='%23182436' stroke-width='2' opacity='.5'/%3E%3Cpath d='M440 112v136M372 180h136' stroke='%23182436' stroke-width='1.4' opacity='.4'/%3E%3Cpath d='M400 250l40-56 40 56z' fill='%238c3b2e' opacity='.55'/%3E%3C/svg%3E" alt="万历怠政档案封面，泛黄奏折与空置的御案">
+            <span class="sk-cover-mask"></span>
+            <span class="sk-play"></span>
+            <span class="sk-cover-tag">制度考据</span>
+            <h3 class="sk-cover-title">《御案三日》下集：万历怠政背后，财政账本比性格更会说话</h3>
+          </div>
+          <div class="sk-feature-body">
+            <p>我们把万历朝的太仓银库账本、内帑支出与边镇军饷逐条对照，发现“怠政”并非单一性格问题，而是一场制度性拖延的长期后果。</p>
+            <div class="sk-card-meta">
+              <span class="sk-avatar" style="background:#c19a3f">顾</span>
+              <span>顾清禾 · 财政史研究</span>
+              <span>·</span>
+              <span>38 分钟</span>
+              <span>·</span>
+              <span>96.2 万播放</span>
+              <button class="sk-like" data-count="2481" style="margin-left:auto;background:none;border:1px solid #d8cfba;border-radius:2px;padding:4px 10px;font-size:12px;cursor:pointer;font-family:inherit;color:#3c4a5e">♡ 2481</button>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="sk-mini-grid">
+        <article class="sk-mini-card">
+          <div class="sk-cover"><img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 180'%3E%3Crect width='320' height='180' fill='%232e4258'/%3E%3Ccircle cx='250' cy='46' r='24' fill='%23e0b84c' opacity='.8'/%3E%3Cpath d='M0 130l70-50 60 40 70-60 120 80v40H0z' fill='%23101a29'/%3E%3Cpath d='M40 60h70v8H40zM40 78h48v6H40z' fill='%23f4efe4' opacity='.4'/%3E%3C/svg%3E" alt="迁都之争档案封面，双城剪影与山脉"></div>
+          <div class="sk-mini-body">
+            <h4>迁都之争：北平与南京的三次攻防</h4>
+            <div class="sk-card-meta"><span>18 分钟</span><span>·</span><span>64.7 万</span></div>
+          </div>
+        </article>
+        <article class="sk-mini-card">
+          <div class="sk-cover"><img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 180'%3E%3Crect width='320' height='180' fill='%23463a52'/%3E%3Ccircle cx='160' cy='90' r='54' fill='none' stroke='%23e0b84c' stroke-width='1.6' opacity='.8'/%3E%3Cpath d='M160 36v108M106 90h108' stroke='%23e0b84c' stroke-width='1' opacity='.5'/%3E%3Crect x='132' y='120' width='56' height='8' fill='%23c19a3f'/%3E%3C/svg%3E" alt="玉玺之谜档案封面，圆形玉璧与暗紫背景"></div>
+          <div class="sk-mini-body">
+            <h4>玉玺之谜：传国玉玺最后出现在何时</h4>
+            <div class="sk-card-meta"><span>22 分钟</span><span>·</span><span>58.3 万</span></div>
+          </div>
+        </article>
+        <article class="sk-mini-card">
+          <div class="sk-cover"><img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 180'%3E%3Crect width='320' height='180' fill='%235a4a3a'/%3E%3Cpath d='M0 150h320v30H0z' fill='%23223046'/%3E%3Cpath d='M60 150V70h30v80zM130 150V40h34v110zM210 150V88h26v62z' fill='%23a8865a' opacity='.7'/%3E%3Ccircle cx='270' cy='40' r='18' fill='%23e0b84c' opacity='.7'/%3E%3C/svg%3E" alt="宫城营造档案封面，殿宇轮廓与暮色"></div>
+          <div class="sk-mini-body">
+            <h4>宫城营造：一根金丝楠木的千里运输</h4>
+            <div class="sk-card-meta"><span>26 分钟</span><span>·</span><span>51.9 万</span></div>
+          </div>
+        </article>
+        <article class="sk-mini-card">
+          <div class="sk-cover"><img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 180'%3E%3Crect width='320' height='180' fill='%23223a3a'/%3E%3Cpath d='M0 100 Q80 60 160 100 T320 100 V180 H0z' fill='%23182436' opacity='.8'/%3E%3Cpath d='M40 70l14 24h-28zM80 58l12 20H68zM120 74l16 26h-32z' fill='%23c19a3f' opacity='.6'/%3E%3C/svg%3E" alt="海禁档案封面，远帆与墨绿海面"></div>
+          <div class="sk-mini-body">
+            <h4>海禁与开海：朝贡体系下的民间走私线</h4>
+            <div class="sk-card-meta"><span>31 分钟</span><span>·</span><span>47.5 万</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 专题企划 -->
+  <section class="sk-section sk-topics" id="sk-topics">
+    <div class="sk-container">
+      <div class="sk-section-head">
+        <h2><small>SPECIAL PROJECTS</small>专题企划</h2>
+        <p>以季度为单位的长期选题，每一季围绕一个帝王命题展开多部影像与线下活动。</p>
+      </div>
+      <div class="sk-topic-grid">
+        <article class="sk-topic-card">
+          <div class="sk-cover"><img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23223046'/%3E%3Ccircle cx='360' cy='60' r='38' fill='%238c3b2e' opacity='.8'/%3E%3Cpath d='M0 200l100-70 90 60 100-80 190 110v50H0z' fill='%23101a29'/%3E%3Cpath d='M60 80h120v10H60zM60 102h86v8H60z' fill='%23e0b84c' opacity='.6'/%3E%3C/svg%3E" alt="靖难四十八小时专题封面，暗红月亮与城郭"></div>
+          <div class="sk-topic-body">
+            <span class="sk-topic-status">更新中 · 已上线 5 集</span>
+            <h3>靖难四十八小时</h3>
+            <p>以小时为单位拆解一场改变帝国命运的权力更替，配合地图动画与档案原件对照。</p>
+          </div>
+        </article>
+        <article class="sk-topic-card">
+          <div class="sk-cover"><img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%234a3a2c'/%3E%3Crect x='50' y='50' width='150' height='170' fill='%23f4efe4' opacity='.18'/%3E%3Crect x='70' y='72' width='110' height='9' fill='%23e0b84c' opacity='.7'/%3E%3Crect x='70' y='94' width='80' height='7' fill='%23f4efe4' opacity='.4'/%3E%3Ccircle cx='330' cy='130' r='70' fill='none' stroke='%23e0b84c' stroke-width='2' opacity='.7'/%3E%3Cpath d='M330 60v140M260 130h140' stroke='%23e0b84c' stroke-width='1' opacity='.45'/%3E%3C/svg%3E" alt="帝王与账本专题封面，奏折与账册图形"></div>
+          <div class="sk-topic-body">
+            <span class="sk-topic-status">已完结 · 共 8 集</span>
+            <h3>帝王与账本</h3>
+            <p>从财政数据看王朝兴衰，把“明君昏君”的标签换成一条条可核算的收支曲线。</p>
+          </div>
+        </article>
+        <article class="sk-topic-card">
+          <div class="sk-cover"><img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23223a3a'/%3E%3Cpath d='M0 190 Q120 140 240 190 T480 190 V270 H0z' fill='%23101a29'/%3E%3Cpath d='M90 110l20 34H70zM190 88l24 42h-48zM300 106l18 30h-36z' fill='%23c19a3f' opacity='.65'/%3E%3Ccircle cx='400' cy='56' r='26' fill='%23e0b84c' opacity='.55'/%3E%3C/svg%3E" alt="未被记录的她们专题封面，宫墙剪影与月色"></div>
+          <div class="sk-topic-body">
+            <span class="sk-topic-status">筹备中 · 预计冬季上线</span>
+            <h3>未被记录的她们</h3>
+            <p>聚焦帝王叙事中常被简化的女性角色，从后妃、女官到乳母，重建她们的能动性。</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 创作者 -->
+  <section class="sk-section" id="sk-creators">
+    <div class="sk-container">
+      <div class="sk-section-head">
+        <h2><small>CREATORS</small>创作者矩阵</h2>
+        <p>研究所的档案背后，是一群长期驻场的考据者、导演与影像作者。</p>
+      </div>
+      <div class="sk-creator-grid">
+        <article class="sk-creator-card">
+          <span class="sk-creator-avatar" style="background:#8c3b2e">沈</span>
+          <div class="sk-creator-info">
+            <h3>沈砚舟</h3>
+            <div class="sk-creator-field">首席考据 · 明史方向</div>
+            <p>专注靖难之役与永乐朝制度重建，擅长把文献歧义转化为可视化推演。</p>
+            <div class="sk-creator-stats"><span>作品 <b>46</b></span><span>关注 <b>18.2万</b></span></div>
+            <button class="sk-creator-more" data-creator="沈砚舟｜首席考据，明史方向。代表作《靖难之夜》《迁都之争》。长期驻场研究所，负责档案选题与史料复核。">查看档案 →</button>
+          </div>
+        </article>
+        <article class="sk-creator-card">
+          <span class="sk-creator-avatar" style="background:#c19a3f">顾</span>
+          <div class="sk-creator-info">
+            <h3>顾清禾</h3>
+            <div class="sk-creator-field">财政史研究 · 数据叙事</div>
+            <p>用账本、税册与军饷记录还原帝国运行成本，主张“数字比性格更诚实”。</p>
+            <div class="sk-creator-stats"><span>作品 <b>31</b></span><span>关注 <b>12.6万</b></span></div>
+            <button class="sk-creator-more" data-creator="顾清禾｜财政史研究，数据叙事作者。代表作《御案三日》《帝王与账本》系列。负责研究所的经济史专题。">查看档案 →</button>
+          </div>
+        </article>
+        <article class="sk-creator-card">
+          <span class="sk-creator-avatar" style="background:#2e4258">陆</span>
+          <div class="sk-creator-info">
+            <h3>陆观澜</h3>
+            <div class="sk-creator-field">纪录片导演 · 影像复原</div>
+            <p>负责研究所实景拍摄与三维场景复原，追求“看得见的史料质感”。</p>
+            <div class="sk-creator-stats"><span>作品 <b>38</b></span><span>关注 <b>15.4万</b></span></div>
+            <button class="sk-creator-more" data-creator="陆观澜｜纪录片导演，影像复原负责人。主导《宫城营造》《海禁与开海》等作品的实景与三维制作。">查看档案 →</button>
+          </div>
+        </article>
+        <article class="sk-creator-card">
+          <span class="sk-creator-avatar" style="background:#5a4a3a">闻</span>
+          <div class="sk-creator-info">
+            <h3>闻雪迟</h3>
+            <div class="sk-creator-field">口述史 · 田野调查</div>
+            <p>长期在地方档案馆与民间家谱中寻找与帝王叙事互为镜像的普通人记录。</p>
+            <div class="sk-creator-stats"><span>作品 <b>24</b></span><span>关注 <b>9.8万</b></span></div>
+            <button class="sk-creator-more" data-creator="闻雪迟｜口述史作者，田野调查负责人。负责研究所的地方档案采集与民间叙事整理，参与《未被记录的她们》筹备。">查看档案 →</button>
+          </div>
+        </article>
+        <article class="sk-creator-card">
+          <span class="sk-creator-avatar" style="background:#463a52">程</span>
+          <div class="sk-creator-info">
+            <h3>程砚白</h3>
+            <div class="sk-creator-field">器物考据 · 视觉设计</div>
+            <p>从器物形制与纹样切入，重构宫廷生活的物质细节，并负责档案视觉系统。</p>
+            <div class="sk-creator-stats"><span>作品 <b>29</b></span><span>关注 <b>11.1万</b></span></div>
+            <button class="sk-creator-more" data-creator="程砚白｜器物考据与视觉设计。负责研究所档案的整体视觉规范、片头设计与器物复原图绘制。">查看档案 →</button>
+          </div>
+        </article>
+        <article class="sk-creator-card">
+          <span class="sk-creator-avatar" style="background:#223a3a">苏</span>
+          <div class="sk-creator-info">
+            <h3>苏见山</h3>
+            <div class="sk-creator-field">社区主理 · 新人扶持</div>
+            <p>负责创作者社区运营与投稿孵化，帮助新作者把兴趣变成可持续的档案项目。</p>
+            <div class="sk-creator-stats"><span>作品 <b>17</b></span><span>关注 <b>7.3万</b></span></div>
+            <button class="sk-creator-more" data-creator="苏见山｜社区主理人，新人扶持计划负责人。主持每周档案共创直播与投稿辅导，是社区里最活跃的联络人。">查看档案 →</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 影像墙 -->
+  <section class="sk-section sk-wall" id="sk-wall">
+    <div class="sk-container">
+      <div class="sk-section-head">
+        <h2><small>IMAGE WALL</small>社区影像墙</h2>
+        <p>来自创作者与同好的档案截帧、器物速写与现场记录。</p>
+      </div>
+      <div class="sk-wall-grid">
+        <div class="sk-wall-item w2 h2"><img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 480'%3E%3Crect width='480' height='480' fill='%23223046'/%3E%3Ccircle cx='240' cy='200' r='130' fill='none' stroke='%23c19a3f' stroke-width='2' opacity='.7'/%3E%3Cpath d='M120 340l120-120 120 120z' fill='%23e0b84c' opacity='.3'/%3E%3Cpath d='M240 120v160' stroke='%23e0b84c' stroke-width='1.4' opacity='.6'/%3E%3C/svg%3E" alt="帝王宝座三维复原截帧"><span>宝座复原 · 三维截帧</span></div>
+        <div class="sk-wall-item"><img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 240'%3E%3Crect width='240' height='240' fill='%23a8865a'/%3E%3Crect x='40' y='60' width='160' height='120' fill='%23f4efe4' opacity='.35'/%3E%3Cpath d='M60 100h120M60 124h90M60 148h110' stroke='%23182436' stroke-width='3' opacity='.4'/%3E%3C/svg%3E" alt="奏折原件影印速写"><span>奏折速写</span></div>
+        <div class="sk-wall-item"><img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 240'%3E%3Crect width='240' height='240' fill='%232e4258'/%3E%3Ccircle cx='120' cy='100' r='50' fill='%23e0b84c' opacity='.6'/%3E%3Cpath d='M0 180l60-40 50 34 60-44 70 48v62H0z' fill='%23101a29'/%3E%3C/svg%3E" alt="暮色城楼现场记录"><span>城楼暮色</span></div>
+        <div class="sk-wall-item"><img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 240'%3E%3Crect width='240' height='240' fill='%23463a52'/%3E%3Ccircle cx='120' cy='120' r='60' fill='none' stroke='%23e0b84c' stroke-width='2'/%3E%3Cpath d='M120 60v120M60 120h120' stroke='%23c19a3f' stroke-width='1' opacity='.5'/%3E%3C/svg%3E" alt="玉璧器物纹样研究图"><span>玉璧纹样</span></div>
+        <div class="sk-wall-item"><img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 240'%3E%3Crect width='240' height='240' fill='%23223a3a'/%3E%3Cpath d='M0 160 Q60 120 120 160 T240 160V240H0z' fill='%23101a29'/%3E%3Cpath d='M70 100l14 24H56zM140 90l16 26h-32z' fill='%23c19a3f' opacity='.7'/%3E%3C/svg%3E" alt="海船远帆场景概念图"><span>远帆概念</span></div>
+        <div class="sk-wall-item w2"><img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 240'%3E%3Crect width='480' height='240' fill='%235a4a3a'/%3E%3Cpath d='M0 200h480v40H0z' fill='%23223046'/%3E%3Cpath d='M80 200V90h40v110zM180 200V60h44v140zM300 200V110h36v90zM400 200V80h34v120z' fill='%23a8865a' opacity='.6'/%3E%3Ccircle cx='420' cy='50' r='20' fill='%23e0b84c' opacity='.6'/%3E%3C/svg%3E" alt="宫城营造片场全景记录"><span>片场全景 · 宫城营造</span></div>
+        <div class="sk-wall-item"><img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 240'%3E%3Crect width='240' height='240' fill='%238c3b2e' opacity='.85'/%3E%3Cpath d='M40 180l50-80 40 50 50-70 60 100z' fill='%23182436' opacity='.7'/%3E%3Ccircle cx='180' cy='60' r='22' fill='%23f4efe4' opacity='.8'/%3E%3C/svg%3E" alt="靖难之夜暗红场景概念"><span>暗夜概念</span></div>
+        <div class="sk-wall-item"><img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 240'%3E%3Crect width='240' height='240' fill='%23d9c9a3'/%3E%3Crect x='50' y='40' width='140' height='160' fill='%23fbf8f1' opacity='.7'/%3E%3Cpath d='M70 80h100M70 102h70M70 124h90M70 146h60' stroke='%23182436' stroke-width='3' opacity='.4'/%3E%3C/svg%3E" alt="地方志手抄本档案翻拍"><span>方志手抄</span></div>
+        <div class="sk-wall-item"><img src='data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 240 240%22%3E%3Crect width=%22240%22 height=%22240%22 fill=%22%232b3d57%22/%3E%3Cpath d=%22M120 40l16 48h50l-40 30 15 48-41-30-41 30 15-48-40-30h50z%22 fill=%22%23e0b84c%22 opacity=%22.6%22/%3E%3C/svg%3E' alt="社区同好档案徽章设计"><span>社区徽章</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 企业动态 -->
+  <section class="sk-section" id="sk-updates">
+    <div class="sk-container">
+      <div class="sk-section-head">
+        <h2><small>NEWSROOM</small>企业动态与更新日志</h2>
+        <p>来自秘密帝王研究所的官方发布、活动通知与档案上线记录。</p>
+      </div>
+      <div class="sk-updates-grid">
+        <article class="sk-update">
+          <time datetime="2026-11-18">2026 / 11 / 18</time>
+          <h3>帝王档案第七季《靖难之夜》上下集正式上线</h3>
+          <p>历经十一个月的史料比对与实景拍摄，本集同步开放导演音轨与档案手记下载。研究所学术顾问团队为本集提供了三份新近整理的地方志材料。</p>
+        </article>
+        <article class="sk-update">
+          <time datetime="2026-11-15">2026 / 11 / 15</time>
+          <h3>创作者扶持计划第二期报名开启</h3>
+          <p>面向独立影像作者与历史爱好者，提供素材库授权、考据支持与制作补贴。本期主题为“被忽略的旁观者”，报名截止至十二月中旬，欢迎通过投稿入口提交选题。</p>
+        </article>
+        <article class="sk-update">
+          <time datetime="2026-11-09">2026 / 11 / 09</time>
+          <h3>与三家地方博物馆达成档案共建合作</h3>
+          <p>研究所将与合作方共同整理明清地方文书与器物影像，首批成果预计在明年春季以专题形式发布，并向社区创作者开放部分素材。</p>
+        </article>
+        <article class="sk-update">
+          <time datetime="2026-10-28">2026 / 10 / 28</time>
+          <h3>《帝王与账本》系列完结，累计播放突破九百万</h3>
+          <p>该系列以八集篇幅梳理明代财政结构变迁，社区围绕其中的军饷数据展开多轮讨论。研究所已将讨论中的有效补充整理为公开档案附注。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 用户评价 -->
+  <section class="sk-section">
+    <div class="sk-container">
+      <div class="sk-section-head">
+        <h2><small>COMMUNITY VOICES</small>来自社区的声音</h2>
+        <p>真实的反馈，是研究所持续调整选题与制作方式的重要依据。</p>
+      </div>
+      <div class="sk-quotes-grid">
+        <div class="sk-quote">
+          <p>做了十年明史爱好者，第一次看到有人把靖难的时间线拆到小时级别，而且每个判断后面都附了材料出处。这种克制很难得，不是那种靠音乐和悬念撑起来的片子。</p>
+          <div class="sk-quote-who"><span class="sk-avatar" style="background:#8c3b2e">周</span><b>周叙白</b>· 历史教师</div>
+        </div>
+        <div class="sk-quote">
+          <p>《御案三日》让我重新理解了万历。以前只觉得他懒，看完账本那一集才意识到，很多决策是被制度卡住的。这种把结构讲清楚的影像太少了。</p>
+          <div class="sk-quote-who"><span class="sk-avatar" style="background:#c19a3f">林</span><b>林见澈</b>· 内容从业者</div>
+        </div>
+        <div class="sk-quote">
+          <p>参加了研究所的共创直播，苏见山把投稿流程讲得很细，连素材授权范围都一条条说明。作为新人，这种透明和耐心让我愿意继续做下去。</p>
+          <div class="sk-quote-who"><span class="sk-avatar" style="background:#2e4258">许</span><b>许砚池</b>· 独立作者</div>
+        </div>
+        <div class="sk-quote">
+          <p>影像墙里的器物速写太惊喜了，能看到别人的研究过程，比只看成片更有参与感。希望以后能开放更多母版素材给社区临摹。</p>
+          <div class="sk-quote-who"><span class="sk-avatar" style="background:#463a52">唐</span><b>唐莞尔</b>· 插画师</div>
+        </div>
+        <div class="sk-quote">
+          <p>企业动态更新得很勤，合作博物馆的消息也是第一时间发。作为同行，我很看重这种持续运营的稳定性，说明背后有真实的团队在做事。</p>
+          <div class="sk-quote-who"><span class="sk-avatar" style="background:#223a3a">季</span><b>季行舟</b>· 文化机构运营</div>
+        </div>
+        <div class="sk-quote">
+          <p>我不是历史专业，纯粹被《迁都之争》吸引进来，现在每周等更新。研究所的解说不会让人有门槛感，但也没有为了好懂就牺牲准确。</p>
+          <div class="sk-quote-who"><span class="sk-avatar" style="background:#5a4a3a">白</span><b>白予安</b>· 社区成员</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="sk-section sk-faq" id="sk-faq">
+    <div class="sk-container">
+      <div class="sk-section-head">
+        <h2><small>HELP CENTER</small>常见问题</h2>
+        <p>关于档案内容、素材授权与社区参与的说明。</p>
+      </div>
+      <div class="sk-faq-list">
+        <details class="sk-faq-item" open>
+          <summary>秘密帝王研究所的档案更新频率是怎样的？</summary>
+          <p>核心系列《帝王档案》保持每周更新一集，长纪录片以季度为单位发布。专题企划会根据考据进度调整上线时间，具体排期会在企业动态中提前公布。</p>
+        </details>
+        <details class="sk-faq-item">
+          <summary>我可以申请使用研究所的素材库吗？</summary>
+          <p>可以。研究所自有素材库向注册创作者开放授权，需通过投稿入口提交使用场景说明。非商业用途与商业用途的授权范围不同，审核后会有专人对接。</p>
+        </details>
+        <details class="sk-faq-item">
+          <summary>如何参与创作者扶持计划？</summary>
+          <p>每期计划会在动态中公布主题与截止时间。参与者需提交一份选题说明与过往作品链接，由研究所团队与社区代表共同评审，入选者将获得素材、考据与制作支持。</p>
+        </details>
+        <details class="sk-faq-item">
+          <summary>内容中的史料判断是否经过专业核验？</summary>
+          <p>所有档案脚本均经过学术顾问团队复核，片尾会列出主要参考材料。对于存在争议的结论，我们会在影像中明确标注分歧，并保留社区的补充讨论。</p>
+        </details>
+        <details class="sk-faq-item">
+          <summary>研究所是否接受线下合作或展陈邀约？</summary>
+          <p>接受。我们曾与博物馆、高校与书店合作举办档案主题展陈与放映交流。合作请求可通过联系区域的企业合作邮箱提交，说明场地条件与时间安排。</p>
+        </details>
+        <details class="sk-faq-item">
+          <summary>社区评论有怎样的管理规则？</summary>
+          <p>我们鼓励基于材料的讨论与反驳，反对人身攻击与未经核实的阴谋式断言。社区设有反馈入口，严重违规内容会由运营团队逐条核查后处理。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系与投稿 -->
+  <section class="sk-section sk-contact" id="sk-contact">
+    <div class="sk-container">
+      <div class="sk-section-head">
+        <h2><small>CONTACT &amp; SUBMISSION</small>联系与投稿</h2>
+        <p>无论你是研究者、创作者还是同行机构，都可以从下面的入口与我们建立联系。</p>
+      </div>
+      <div class="sk-contact-grid">
+        <div class="sk-contact-card">
+          <h3>企业合作</h3>
+          <p>面向博物馆、出版机构、高校与文化品牌，提供档案内容共建、授权与联合展陈合作。我们重视长期、可核查的合作关系。</p>
+          <div class="sk-contact-row"><span>合作邮箱</span><span>partner@emperor-archive.example</span></div>
+          <div class="sk-contact-row"><span>合作方向</span><span>内容共建 / 素材授权 / 展陈</span></div>
+          <div class="sk-contact-row"><span>响应时间</span><span>三至五个工作日</span></div>
+          <div class="sk-contact-actions">
+            <button class="sk-btn" id="skCooperateBtn">提交合作意向</button>
+            <button class="sk-btn sk-btn-ghost" style="color:#f4efe4;border-color:#8f9aa9" id="skCopyMail">复制邮箱</button>
+          </div>
+        </div>
+        <div class="sk-contact-card">
+          <h3>创作者投稿</h3>
+          <p>欢迎提交档案选题、短纪录片或考据长文。投稿请附上选题说明与可核查的材料来源，我们会认真阅读每一份提交。</p>
+          <div class="sk-contact-row"><span>投稿入口</span><span>官方投稿通道 · 长期开放</span></div>
+          <div class="sk-contact-row"><span>审阅周期</span><span>约十个工作日</span></div>
+          <div class="sk-contact-row"><span>社区联络</span><span>每周四晚共创直播</span></div>
+          <div class="sk-contact-actions">
+            <button class="sk-btn" id="skSubmitBtn">我要投稿</button>
+            <button class="sk-btn sk-btn-ghost" style="color:#f4efe4;border-color:#8f9aa9" id="skFeedbackBtn">意见反馈</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="sk-footer">
+  <div class="sk-container">
+    <div class="sk-footer-top">
+      <div>
+        <div class="sk-footer-brandline">
+          <span class="sk-brand-mark">帝</span>
+          <b>秘密帝王研究所</b>
+        </div>
+        <p>秘密帝王研究所官方网站，专注于帝王史与宫闱档案的原创影像机构。以严谨考据为地基，以电影化叙事为语言，持续为社区输出高清、正版的精品内容，让历史影像既克制又温暖。</p>
+      </div>
+      <div>
+        <h4>内容导航</h4>
+        <a href="#sk-focus">焦点影像</a>
+        <a href="#sk-topics">专题企划</a>
+        <a href="#sk-creators">创作者矩阵</a>
+        <a href="#sk-wall">社区影像墙</a>
+      </div>
+      <div>
+        <h4>官方网站</h4>
+        <a href="#sk-about">品牌故事</a>
+        <a href="#sk-updates">企业动态</a>
+        <a href="#sk-faq">帮助中心</a>
+        <a href="#sk-contact">联系与合作</a>
+      </div>
+      <div>
+        <h4>持续运营中</h4>
+        <p>本页面内容由秘密帝王研究所官方发布，档案材料均标注来源。品牌重视用户至上与内容品质，欢迎社区成员通过反馈入口参与共建。</p>
+        <p style="margin-top:10px">官方发布 · 品牌官方网站 · 值得信赖的垂直领域影像平台</p>
+      </div>
+    </div>
+    <div class="sk-footer-bottom">
+      <span>© 2026 秘密帝王研究所 · 版权所有 · 持续运营中</span>
+      <span>原创内容 · 高清正版 · 内容生态共建</span>
+    </div>
+  </div>
+</footer>
+
+<button class="sk-top-btn" id="skTopBtn" aria-label="回到顶部">↑</button>
+<div class="sk-toast" id="skToast" role="status" aria-live="polite"></div>
+
+<!-- 分享弹窗 -->
+<div class="sk-modal-mask" id="skShareModal">
+  <div class="sk-modal" role="dialog" aria-modal="true" aria-labelledby="skShareTitle">
+    <button class="sk-modal-close" data-close="skShareModal" aria-label="关闭">×</button>
+    <h3 id="skShareTitle">分享秘密帝王研究所</h3>
+    <p class="sk-modal-sub">选择你常用的平台，把这个档案门户推荐给同好。</p>
+    <div class="sk-share-grid">
+      <button class="sk-share-item" data-share="微信">微信好友</button>
+      <button class="sk-share-item" data-share="朋友圈">朋友圈</button>
+      <button class="sk-share-item" data-share="微博">微博</button>
+      <button class="sk-share-item" data-share="QQ">QQ</button>
+    </div>
+    <button class="sk-btn sk-btn-dark" style="width:100%" id="skCopyLink">复制页面链接</button>
+  </div>
+</div>
+
+<!-- 投稿弹窗 -->
+<div class="sk-modal-mask" id="skSubmitModal">
+  <div class="sk-modal" role="dialog" aria-modal="true" aria-labelledby="skSubmitTitle">
+    <button class="sk-modal-close" data-close="skSubmitModal" aria-label="关闭">×</button>
+    <h3 id="skSubmitTitle">投稿 / 共创申请</h3>
+    <p class="sk-modal-sub">填写选题基本信息，研究所会在十个工作日内回复。</p>
+    <form id="skSubmitForm">
+      <div class="sk-field">
+        <label for="skSubName">称呼</label>
+        <input id="skSubName" type="text" placeholder="如何称呼你" required>
+      </div>
+      <div class="sk-field">
+        <label for="skSubTopic">选题方向</label>
+        <select id="skSubTopic">
+          <option>帝王档案 · 王朝更替</option>
+          <option>帝王档案 · 宫闱与人物</option>
+          <option>制度与财政考据</option>
+          <option>器物与视觉复原</option>
+          <option>地方档案与口述史</option>
+        </select>
+      </div>
+      <div class="sk-field">
+        <label for="skSubDesc">选题说明</label>
+        <textarea id="skSubDesc" placeholder="简述你的选题、材料来源与预期形式" required></textarea>
+      </div>
+      <button class="sk-btn sk-btn-dark" type="submit" style="width:100%">提交选题</button>
+    </form>
+  </div>
+</div>
+
+<!-- 通用反馈弹窗 -->
+<div class="sk-modal-mask" id="skFeedbackModal">
+  <div class="sk-modal" role="dialog" aria-modal="true" aria-labelledby="skFeedbackTitle">
+    <button class="sk-modal-close" data-close="skFeedbackModal" aria-label="关闭">×</button>
+    <h3 id="skFeedbackTitle">意见反馈</h3>
+    <p class="sk-modal-sub">无论是对档案内容的补充，还是对社区体验的建议，我们都愿意听见。</p>
+    <form id="skFeedbackForm">
+      <div class="sk-field">
+        <label for="skFbType">反馈类型</label>
+        <select id="skFbType">
+          <option>史料补充与勘误</option>
+          <option>内容建议</option>
+          <option>社区体验</option>
+          <option>合作咨询</option>
+        </select>
+      </div>
+      <div class="sk-field">
+        <label for="skFbText">具体说明</label>
+        <textarea id="skFbText" placeholder="请尽量具体描述，便于我们核查" required></textarea>
+      </div>
+      <button class="sk-btn sk-btn-dark" type="submit" style="width:100%">提交反馈</button>
+    </form>
+  </div>
+</div>
+
+<!-- 创作者弹窗 -->
+<div class="sk-modal-mask" id="skCreatorModal">
+  <div class="sk-modal" role="dialog" aria-modal="true" aria-labelledby="skCreatorTitle">
+    <button class="sk-modal-close" data-close="skCreatorModal" aria-label="关闭">×</button>
+    <h3 id="skCreatorTitle">创作者档案</h3>
+    <p class="sk-modal-sub" id="skCreatorBody">加载中。</p>
+    <button class="sk-btn" id="skCreatorFollow">关注这位创作者</button>
+  </div>
+</div>
+
+<script>
+(function(){
+  var d = document;
+  function $(id){ return d.getElementById(id); }
+
+  // 移动端导航
+  var navToggle = $('skNavToggle');
+  var nav = $('skNav');
+  if(navToggle && nav){
+    navToggle.addEventListener('click', function(){
+      var open = nav.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    nav.addEventListener('click', function(e){
+      if(e.target.tagName === 'A'){ nav.classList.remove('open'); navToggle.setAttribute('aria-expanded','false'); }
+    });
+  }
+
+  // Toast
+  var toast = $('skToast');
+  var toastTimer = null;
+  function showToast(msg){
+    if(!toast) return;
+    toast.textContent = msg;
+    toast.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toast.classList.remove('show'); }, 2200);
+  }
+
+  // 搜索反馈
+  var searchInput = $('skSearchInput');
+  var searchBtn = $('skSearchBtn');
+  function doSearch(){
+    var v = searchInput ? searchInput.value.trim() : '';
+    if(!v){ showToast('请输入关键词，例如「靖难」「账本」「器物」'); return; }
+    var pool = ['靖难之夜','御案三日','迁都之争','玉玺之谜','宫城营造','海禁与开海','帝王与账本','未被记录的她们','沈砚舟','顾清禾','陆观澜'];
+    var hit = pool.filter(function(x){ return x.indexOf(v) > -1; });
+    if(hit.length){ showToast('找到 ' + hit.length + ' 条相关档案：' + hit.slice(0,3).join('、')); }
+    else { showToast('暂未匹配「' + v + '」，可尝试「帝王」「档案」「考据」'); }
+  }
+  if(searchBtn){ searchBtn.addEventListener('click', doSearch); }
+  if(searchInput){
+    searchInput.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ doSearch(); } });
+  }
+
+  // 点赞
+  var likes = d.querySelectorAll('.sk-like');
+  Array.prototype.forEach.call(likes, function(btn){
+    btn.addEventListener('click', function(e){
+      e.stopPropagation();
+      var n = parseInt(btn.getAttribute('data-count'), 10) || 0;
+      var liked = btn.getAttribute('data-liked') === '1';
+      n = liked ? n - 1 : n + 1;
+      btn.setAttribute('data-count', n);
+      btn.setAttribute('data-liked', liked ? '0' : '1');
+      btn.textContent = (liked ? '♡ ' : '♥ ') + n;
+      btn.style.color = liked ? '#3c4a5e' : '#8c3b2e';
+      showToast(liked ? '已取消推荐' : '已加入你的推荐列表');
+    });
+  });
+
+  // 弹窗通用
+  function openModal(id){ var m = $(id); if(m){ m.classList.add('open'); } }
+  function closeModal(id){ var m = $(id); if(m){ m.classList.remove('open'); } }
+  d.addEventListener('click', function(e){
+    var closeBtn = e.target.closest('[data-close]');
+    if(closeBtn){ closeModal(closeBtn.getAttribute('data-close')); }
+    if(e.target.classList && e.target.classList.contains('sk-modal-mask')){ e.target.classList.remove('open'); }
+  });
+  d.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){
+      var masks = d.querySelectorAll('.sk-modal-mask.open');
+      Array.prototype.forEach.call(masks, function(m){ m.classList.remove('open'); });
+    }
+  });
+
+  // 分享
+  var shareHero = $('skShareHero');
+  if(shareHero){ shareHero.addEventListener('click', function(){ openModal('skShareModal'); }); }
+  var shareItems = d.querySelectorAll('.sk-share-item');
+  Array.prototype.forEach.call(shareItems, function(item){
+    item.addEventListener('click', function(){
+      showToast('已生成「' + item.getAttribute('data-share') + '」分享卡片，可粘贴发送');
+      closeModal('skShareModal');
+    });
+  });
+  var copyLink = $('skCopyLink');
+  if(copyLink){
+    copyLink.addEventListener('click', function(){
+      var url = window.location.href;
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(url).then(function(){ showToast('页面链接已复制'); }).catch(function(){ showToast('复制失败，请手动复制地址栏链接'); });
+      } else {
+        showToast('请手动复制地址栏链接分享');
+      }
+      closeModal('skShareModal');
+    });
+  }
+
+  // 复制邮箱
+  var copyMail = $('skCopyMail');
+  if(copyMail){
+    copyMail.addEventListener('click', function(){
+      var mail = 'partner@emperor-archive.example';
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(mail).then(function(){ showToast('合作邮箱已复制'); }).catch(function(){ showToast('复制失败，请手动记录邮箱'); });
+      } else { showToast('请手动记录合作邮箱'); }
+    });
+  }
+
+  // 合作
+  var coop = $('skCooperateBtn');
+  if(coop){ coop.addEventListener('click', function(){ $('skFbType').value = '合作咨询'; openModal('skFeedbackModal'); }); }
+  // 反馈
+  var fb = $('skFeedbackBtn');
+  if(fb){ fb.addEventListener('click', function(){ openModal('skFeedbackModal'); }); }
+  // 投稿
+  var sub = $('skSubmitBtn');
+  if(sub){ sub.addEventListener('click', function(){ openModal('skSubmitModal'); }); }
+
+  var submitForm = $('skSubmitForm');
+  if(submitForm){
+    submitForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      var name = $('skSubName').value.trim();
+      if(!name){ showToast('请填写称呼'); return; }
+      showToast('选题已提交，感谢你的信任');
+      submitForm.reset();
+      closeModal('skSubmitModal');
+    });
+  }
+  var feedbackForm = $('skFeedbackForm');
+  if(feedbackForm){
+    feedbackForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      showToast('反馈已收到，我们会认真核查');
+      feedbackForm.reset();
+      closeModal('skFeedbackModal');
+    });
+  }
+
+  // 创作者档案
+  var creatorBtns = d.querySelectorAll('.sk-creator-more');
+  Array.prototype.forEach.call(creatorBtns, function(b){
+    b.addEventListener('click', function(){
+      var txt = b.getAttribute('data-creator') || '';
+      var parts = txt.split('｜');
+      $('skCreatorTitle').textContent = parts[0] || '创作者档案';
+      $('skCreatorBody').textContent = parts[1] || txt;
+      var f = $('skCreatorFollow');
+      f.textContent = '关注这位创作者';
+      f.setAttribute('data-on','0');
+      openModal('skCreatorModal');
+    });
+  });
+  var followBtn = $('skCreatorFollow');
+  if(followBtn){
+    followBtn.addEventListener('click', function(){
+      var on = followBtn.getAttribute('data-on') === '1';
+      followBtn.setAttribute('data-on', on ? '0' : '1');
+      followBtn.textContent = on ? '关注这位创作者' : '已关注 · 接收更新';
+      showToast(on ? '已取消关注' : '已关注，新档案上线会通知你');
+    });
+  }
+
+  // 回到顶部
+  var topBtn = $('skTopBtn');
+  if(topBtn){
+    topBtn.addEventListener('click', function(){ window.scrollTo({top:0, behavior:'smooth'}); });
+    window.addEventListener('scroll', function(){
+      if(window.scrollY > 480){ topBtn.classList.add('show'); } else { topBtn.classList.remove('show'); }
+    }, {passive:true});
+  }
+
+  // 首屏数字轻微滚动
+  var statVals = d.querySelectorAll('.sk-hero-stat b');
+  var started = false;
+  function runStats(){
+    if(started) return; started = true;
+    Array.prototype.forEach.call(statVals, function(el){
+      var raw = el.textContent;
+      var num = parseFloat(raw.replace(/[^0-9.]/g,''));
+      if(isNaN(num)) return;
+      var suffix = raw.replace(/[0-9.]/g,'');
+      var start = 0, dur = 900, t0 = null;
+      function step(ts){
+        if(!t0) t0 = ts;
+        var p = Math.min((ts - t0)/dur, 1);
+        var cur = Math.round(num * (0.35 + 0.65*p));
+        el.textContent = cur + suffix;
+        if(p < 1){ requestAnimationFrame(step); } else { el.textContent = raw; }
+      }
+      requestAnimationFrame(step);
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){ if(en.isIntersecting){ runStats(); io.disconnect(); } });
+    }, {threshold:.4});
+    var heroStats = d.querySelector('.sk-hero-stats');
+    if(heroStats){ io.observe(heroStats); }
+  } else { runStats(); }
+
+  // 卡片点击提示（非按钮区域）
+  var clickCards = d.querySelectorAll('.sk-feature-card, .sk-mini-card, .sk-topic-card, .sk-wall-item');
+  Array.prototype.forEach.call(clickCards, function(card){
+    card.addEventListener('click', function(e){
+      if(e.target.closest('button')) return;
+      showToast('档案详情页正在整理中，可先收藏本页');
+    });
+  });
+})();
+</script>
+</body>
+  </html>
